@@ -34,6 +34,8 @@ public interface Plugin {
 	 */
 	PluginResponse requestMove(String fen);
 
+	PluginResponse requestMove(String fen, String legalMoves);
+
 	/**
 	 * Method that Archchess uses to send a specific configuration for the plugin. Read the PluginConfiguration class for
 	 * more details.
